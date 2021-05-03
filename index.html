@@ -4,8 +4,10 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Albert Woś</title>
-      <link rel="shortcut icon" href="img/avatar.png"/>
+      <title>Space Traveler</title>
+         <meta name="author" content="Albert Woś">
+
+    <link rel="shortcut icon" href="images/logo.webp"/>
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -52,9 +54,9 @@
 
             <!--- welcome-->
     <main>
-        <div class="section home-section">
+        <div class="section home-section" id="home">
         <div class="container">
-                <div class="home" id="home">
+                <div class="home" >
                     <div class="home-text">
                         <h1>
                             The space has never been so close
@@ -71,16 +73,16 @@
             </div>
         </div>
 
-            <div class="section about-section">
+            <div class="section about-section" id="about">
                 <div class="container">
-                <div class="about" id="about">
+                <div class="about" >
 
                     <div class="about-text">
                         <!--- about -->
 
                         <h2>
-                    Something about us
-                </h2>
+                            Something about us
+                        </h2>
 
                         <p>
                             We are a company specializing in civil space travel. Our shuttle has fulfilled all NASA requirements and is ready to take you on a journey!
@@ -115,10 +117,10 @@
             </div>
             </div>
 
-            <div class="section timeline-section">
+            <div class="section timeline-section" id="timeline">
                 <div class="container">
 
-                <div class="timeline" id="timeline">
+                <div class="timeline" >
                     <h1>What you have to do to join us!</h1>
                     <div class="right">
                         <div class="content first">
@@ -188,11 +190,11 @@
             </div>
         </div>
 
-        <div class="section contact-section">
+        <div class="section contact-section" id="contact">
             <div class="container">
                 <h2>Contact Form</h2>
 
-                <div class="contact" id="contact">
+                <div class="contact" >
                     <div class="contact-text">
 
                         <form class="form-style">
@@ -200,22 +202,22 @@
                                 <ul>
                                     <li>
                                         <label for="name">Name</label>
-                                        <input type="text" name="name" maxlength="100">
+                                        <input type="text" id="name" name="name" maxlength="100">
                                         <span>Enter your full name here</span>
                                     </li>
                                     <li>
                                         <label for="email">Email</label>
-                                        <input type="email" name="email" maxlength="100">
+                                        <input type="email"  id="email" name="email" maxlength="100">
                                         <span>Enter a valid email address</span>
                                     </li>
                                     <li>
-                                        <label for="phone">Phone number</label>
-                                        <input type="phone" name="phone" maxlength="100">
+                                        <label for="phone">Phone</label>
+                                        <input type="phone" id="phone" name="phone" maxlength="100">
                                         <span>Your phone number</span>
                                     </li>
                                     <li>
                                         <label for="message">About You</label>
-                                        <textarea name="message" onkeyup="adjust_textarea(this)"></textarea>
+                                        <textarea name="message" id="message" onkeyup="adjust_textarea(this)"></textarea>
                                         <span>Say something about yourself</span>
                                     </li>
                                     <li>
