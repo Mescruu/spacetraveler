@@ -1,0 +1,148 @@
+
+.contact_h1{
+    text-align: center;
+    word-spacing: 10px;
+    font-family:'Raleway', sans-serif;
+   font-size: 4vw;
+    color: rgba(245,245,245,.9);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    transition: 1s;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.contact_h2{
+    text-align: center;
+    word-spacing: 10px;
+    font-family:'Raleway', sans-serif;
+   font-size: 2vw;
+    color: rgba(245,245,245,.7);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    transition: 1s;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    border-bottom: 3px solid rgba(255,255,255,0.3);
+}
+
+ 
+.contact_box{
+width: 100%;
+
+}
+.main_parallax-window{
+    height: 80vh;
+}
+.contact_box_content{
+  width: 100%;
+display: inline-block;
+height: auto;
+margin-top:20vh;
+float: left;
+margin-left: 0;
+}
+.about_me_box{
+    border-top: 3px solid rgba(255,255,255,0.8);
+    border-bottom: 3px solid rgba(255,255,255,0.8);
+    width: 100%;
+    float: left;
+    background: url(../img/content_back3.png);
+    background-repeat: repeat;
+    background-size: 40%;
+    transition: 0.5s;
+    height: auto;
+}
+.contact_box_content_left{
+    height: auto;
+    word-spacing: 3px;
+    font-family:'Raleway', sans-serif;
+    font-size: 1vw;
+    color: rgba(245,245,245,.9);
+    text-align: center;
+    letter-spacing: .4vw;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    float: left;
+    width: 60%;
+    line-height: 3vw;
+
+}
+.contact_box_content_left p{
+margin: 10%;
+}
+h3{
+      height: auto;
+    font-family:'Raleway', sans-serif;
+    font-size: 1.5vw;
+    color: rgba(245,245,245,.9);
+    text-align: center;
+    letter-spacing: .3em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    border-bottom: 2px solid whitesmoke;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 4vw;
+
+}
+.contact_box_content_right{
+    float: right;
+    width: 40%;
+    background-color: rgba(20, 0, 40, 0.8);
+    height: auto;
+}
+.contact_box_content_right img{
+    padding-left: 2px;
+    width: 100%;
+    margin: 0;
+
+    filter:hue-rotate(-40deg);
+    transition: 0.5s;
+    border-left: 2px solid whitesmoke;
+}
+.contact_box_content_right img:hover{
+    filter: hue-rotate(0deg);
+    transition: 0.5s;
+}
+
+.inputbutton a{
+    text-decoration: none;
+    background: rgba(90, 74, 138,1);
+    padding: 1% 1% 1% 1%;
+    border: 2px solid rgba(235,235,235,0.9);
+    color: whitesmoke;
+    width: 35%;
+    margin: 5%;
+    font-family:'Raleway', sans-serif;
+    font-size: 1vw;
+    transition: 1s;
+    float: left;
+    letter-spacing: .3em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+.inputbutton a:hover{
+    background: rgba(120, 94, 155,1);
+    border: 2px solid rgba(255,255,255,1);
+    color: white;
+    transition: 1s;
+    letter-spacing: .5em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+@media(max-width: 786px) {
+    .contact_box_content_left{
+  
+    letter-spacing: .3vw;
+}
+.contact_box_content_left p{
+margin:3%;
+}
+
+.main_parallax-window{
+    height: 100vw;
+}
+
+}
+

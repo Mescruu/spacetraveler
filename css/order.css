@@ -1,0 +1,121 @@
+.delete{
+       color: white;
+    font-size: 17px;
+    width: 75%;
+   background: rgba(90, 74, 138,1);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid rgba(255,255,255,0.6);
+    color: whitesmoke;
+    margin: 5%;
+    transition: 1s;
+transition: 1s;
+}
+.delete:hover{
+     background: rgba(110, 94, 158,1);
+    color:white;
+    border-bottom: 3px solid rgba(255,255,255,0.8);
+    transition: 1s;
+}
+
+.historytxt{
+    
+ margin:20px;
+ font-size: 15px;
+ text-align: justify;
+}
+h3{
+border: 2px solid white;
+margin: 10px;
+padding: 2%;
+padding-left:10%;
+padding-right:10%;
+font-size: 14px;
+margin-bottom: 7%;
+
+text-align: center;
+}
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;   
+
+}
+ li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 30px;
+    background: white;
+}
+ li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+l1{
+    float: left;
+    text-align: center;
+    margin-top: -24px;
+    background: rgba(90, 74, 138,0.9);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    height: 14px;
+    width: 30%;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inherit;
+}
+
+timetxt{
+float: right;
+border: 2px solid rgba(255,255,255,0.8);
+padding: 5px;
+text-align: center;
+font-size: 14px;
+font-style: oblique;
+font-family: Courier New;
+background: rgba(90, 74, 138,1); /*  color tla pod obrazkiem*/
+transition: 1s;
+color: whitesmoke;
+
+}
+timetxt:hover{
+color: white;
+border: 2px solid rgba(255,255,255,1);
+padding: 10px;
+font-size: 15px;
+background: rgba(100, 84, 148,1); /*  color tla pod obrazkiem*/
+transition: 1s;
+}
+
+.content_left:hover{
+    padding: 10px;
+    transition: 1s;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-left: 0px solid white;
+    border-right: 0px solid white; 
+}
+
+@media(max-width: 786px) {
+ timetxt{
+padding: 5px;
+font-size: 1vw;
+}
+timetxt:hover{
+padding: 5px;
+font-size: 1vw;
+}
+h3{
+margin: 4px;
+padding: 1%;
+padding-left:5%;
+padding-right:5%;
+font-size: 1vw;
+margin-bottom: 15%;
+
+}
+   
+}

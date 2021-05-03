@@ -1,0 +1,127 @@
+.form_style{
+    width: 75%;
+    margin:50px auto;
+    padding:20px;
+      font-family: "Helvetica Neue",sans-serif;
+ background: rgba(0,0,0,0);
+ 
+
+}
+.form_style h1{
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #5C5C5C;
+    font-size:x-large;
+
+}
+.form_style ul{
+    list-style:none;
+    padding:0;
+    margin:0;   
+
+}
+.form_style li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 30px;
+       background: white;
+}
+.form_style li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.form_style li > label{
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: -24px;
+    background: rgba(90, 74, 138,1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    height: 14px;
+    padding: 5px;
+    color: white;
+    font-size: 16px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+}
+.form_style input[type="text"],
+.form_style input[type="date"],
+.form_style input[type="datetime"],
+.form_style input[type="email"],
+.form_style input[type="number"],
+.form_style input[type="search"],
+.form_style input[type="time"],
+.form_style input[type="url"],
+.form_style input[type="password"],
+.form_style textarea,
+.form_style select 
+{
+    box-sizing: border-box;
+/*    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;*/
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+      font-family: "Helvetica Neue",sans-serif;
+      margin: 5px;
+}
+/*.form_style input[type="text"]:focus,
+.form_style input[type="date"]:focus,
+.form_style input[type="datetime"]:focus,
+.form_style input[type="email"]:focus,
+.form_style input[type="number"]:focus,
+.form_style input[type="search"]:focus,
+.form_style input[type="time"]:focus,
+.form_style input[type="url"]:focus,
+.form_style input[type="password"]:focus,
+.form_style textarea:focus,
+.form_style select:focus 
+{
+  
+}*/
+.form_style li > span{
+    background: rgba(90, 74, 138,0.8);
+    display: block;
+    padding: 4px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: whitesmoke;
+      font-family: "Helvetica Neue",sans-serif;
+    font-size: 15px;
+}
+.form_style textarea{
+    resize:none;
+    
+}
+.form_style input[type="submit"],
+.form_style input[type="button"],
+.form_style input[type="reset"]{
+
+    background: rgba(90, 74, 138,1);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid rgba(255,255,255,0.6);
+    color: whitesmoke;
+    width: 30%;
+    margin: 5%;
+    transition: 1s;
+}
+.form_style input[type="submit"]:hover,
+.form_style input[type="button"]:hover,
+.form_style input[type="reset"]:hover{
+    background: rgba(110, 94, 158,1);
+    color:white;
+    border-bottom: 3px solid rgba(255,255,255,0.8);
+    transition: 1s;
+
+}
