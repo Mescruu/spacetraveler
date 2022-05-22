@@ -1,5 +1,5 @@
 # Site used in article (Strona wykorzystana w artykule)
-https://doi.org/10.35784/jcsi.2674
+#Check the artcile: https://doi.org/10.35784/jcsi.2674
 
 ## Comparison of selected view creation technologies in applications using the Laravel framework
 
